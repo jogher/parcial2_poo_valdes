@@ -27,6 +27,11 @@ public class Circle extends Shape{
     }
 
     @Override
+    public double getPerimetre() {
+        return 0;
+    }
+
+    @Override
     public Boolean getFilled() {
         return super.getFilled();
     }
@@ -37,4 +42,5 @@ public class Circle extends Shape{
                 "radius=" + radius +
                 '}';
     }
+
 }
